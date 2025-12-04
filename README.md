@@ -5,6 +5,11 @@ Die Anwendung eignet sich perfekt für Anfänger*innen, die JavaScript, DOM-Mani
 
 ---
 
+**Demo**: [book-analyzer-two.vercel.app](https://book-analyzer-two.vercel.app/)
+
+---
+
+
 ## 🚀 **Funktionen**
 
 ✔️ JSON → JavaScript-Objekt umwandeln
