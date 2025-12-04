@@ -5,6 +5,11 @@ Die Anwendung eignet sich perfekt für Anfänger*innen, die JavaScript, DOM-Mani
 
 ---
 
+**Demo**: [book-analyzer-two.vercel.app](https://book-analyzer-two.vercel.app/)
+
+---
+
+
 ## 🚀 **Funktionen**
 
 ✔️ JSON → JavaScript-Objekt umwandeln
@@ -23,7 +28,6 @@ Die Anwendung eignet sich perfekt für Anfänger*innen, die JavaScript, DOM-Mani
 * **HTML5**
 * **CSS3**
 * **JavaScript (ES6)**
-* Optional: Chart.js (für zukünftige Diagramme)
 
 ---
 
@@ -89,9 +93,9 @@ book-analyzer
 
 ---
 
-## 👨‍💻 **Autor**
+## 👩‍💻 **Autor**
 
-Jafar Pourmojib — Frontend Developer (Lernprojekt)
+Nasim Molana — Frontend Developer (Lernprojekt)
 
 ---
 
@@ -101,3 +105,4 @@ MIT License — frei zur Nutzung und Weiterentwicklung
 
 ---
 
+book-analyzer
