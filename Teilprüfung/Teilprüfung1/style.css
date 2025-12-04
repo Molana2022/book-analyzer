@@ -1,0 +1,44 @@
+body {
+    margin: 5em;
+    background-color: rgb(252, 159, 126);
+    text-align: center;
+    color: rgb(77, 2, 2);
+}
+input {
+    display: block;
+    margin: 3rem auto;
+    margin-bottom: 0.5rem;
+    width: 10%;
+    padding: 0.5rem;
+    border: 1px solid rgb(126, 68, 68);
+    background-color: brown;
+    color: #f4cbcb;
+}
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    color: #f3afaf;
+}
+button {
+    background-color: bisque;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: rgb(77, 2, 2);
+    border: 1px solid rgb(126, 68, 68);
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(240, 209, 170);
+    color: rgb(107, 8, 8);
+}
+#message {
+    padding-top: 1.5rem;
+}
+.won {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}

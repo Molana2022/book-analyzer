@@ -1,0 +1,33 @@
+
+const kontaktListe = { 
+  "Max Mustermann": "max.mustermann@example.com", 
+  "Erika Musterfrau": "erika.musterfrau@example.com", 
+  "Sandra Beispiel": "sandra.beispiel@example.com" 
+}; 
+
+kontaktListe.neueKntakt = function(name, email) {
+    if (!this[name]) {
+        this[name] = email;
+        console.log(`${name} wurde hinzugefügt.`);
+    } else console.log(`${name} existiert bereits.`)
+}
+
+function emailSuche(name) { 
+  if (kontaktListe[name]) { 
+    return kontaktListe[name]; 
+  } else { 
+    return "Kontakt nicht gefunden."; 
+  } 
+} 
+
+for (const name in kontaktListe) { 
+  if (kontaktListe.hasOwnProperty(name)) { 
+    console.log(`Name: ${name}, E-Mail: ${kontaktListe[name]}`); 
+  } 
+} 
+ 
+function kontaktLöschen(name) {
+    if (!kontaktListe[name])
+        return 'Es git keine solche Kontakt';
+    else kontaktListe.filter()
+}

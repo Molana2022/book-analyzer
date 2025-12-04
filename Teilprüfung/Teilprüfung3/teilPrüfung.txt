@@ -1,0 +1,3 @@
+
+f) Konvertiere das resultierende Array zurück in einen JSON-String und gib 
+diesen aus. 
